@@ -5,6 +5,7 @@
 - `npm install`
 - `docker-compose up -d`
 - `hasura console`
+- Start the API server: `npm start`
 - Add api to remote schemas with url: `http://host.docker.internal:4000/graphql`
   ![Imgur](https://i.imgur.com/IRfY19z.png)
 
