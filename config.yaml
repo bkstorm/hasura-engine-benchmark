@@ -1,0 +1,4 @@
+version: 2
+endpoint: http://localhost:8082
+admin_secret: zUIw0txj8ng0
+metadata_directory: metadata

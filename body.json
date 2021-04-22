@@ -1,0 +1,4 @@
+{
+  "query": "{\n  books {\n    title\n    author\n  }\n}\n",
+  "variables": { "id": 30 }
+}

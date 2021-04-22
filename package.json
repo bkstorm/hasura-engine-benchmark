@@ -1,0 +1,28 @@
+{
+  "name": "hasura-engine-benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark result of hasura engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "benchmark-hasura": "autocannon -m POST -i body.json http://localhost:8082/v1/graphql",
+    "benchmark-api": "autocannon -m POST -i body.json http://localhost:4000/graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkstorm/hasura-engine-benchmark.git"
+  },
+  "author": "bkstorm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkstorm/hasura-engine-benchmark/issues"
+  },
+  "homepage": "https://github.com/bkstorm/hasura-engine-benchmark#readme",
+  "dependencies": {
+    "apollo-server": "^2.23.0"
+  },
+  "devDependencies": {
+    "autocannon": "^7.2.0"
+  }
+}
